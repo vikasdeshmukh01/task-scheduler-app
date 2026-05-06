@@ -1,0 +1,78 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #555;
+}
+
+.status-message {
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #d6dde6;
+  border-radius: 12px;
+  color: #333;
+  text-align: center;
+}
+
+.status-message.error {
+  border-color: #f5c6cb;
+  background: #fff0f1;
+  color: #a83241;
+}
+
+.task-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.task-card {
+  padding: 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(50, 64, 88, 0.08);
+}
+
+.task-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.task-card p {
+  margin: 0 0 14px;
+  color: #555;
+}
+
+.task-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-card li {
+  margin-bottom: 6px;
+  color: #333;
+}
